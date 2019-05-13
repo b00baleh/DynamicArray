@@ -35,11 +35,6 @@ namespace DynamicArray
             }
         }
 
-        public T Get(int i)
-        {
-            return _arr[i];
-        }
-
         public long Length()
         {
             return _arr.Length;

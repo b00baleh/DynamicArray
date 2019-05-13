@@ -12,13 +12,13 @@ namespace DynamicArray
         {
             var arr = new DynArray<int>();
             arr[10] = 123;
-            Console.WriteLine(arr.Get(10));
+            Console.WriteLine(arr[10]);
 
             for(var i=0; i< 300; i++)
                 arr[i] = i;
 
             for (var i = 0; i < arr.Length(); i++)
-                Console.Write(arr.Get(i) + " ");
+                Console.Write(arr[i] + " ");
             Console.ReadLine();
         }
     }
