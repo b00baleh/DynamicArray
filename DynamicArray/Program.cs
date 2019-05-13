@@ -14,7 +14,7 @@ namespace DynamicArray
             arr.Put(10, 123);
             Console.WriteLine(arr.Get(10));
 
-            for(var i=0; i< 1000; i++)
+            for(var i=0; i< 300; i++)
                 arr.Put(i,i);
 
             for (var i = 0; i < arr.Length(); i++)

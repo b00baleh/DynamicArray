@@ -4,3 +4,9 @@ c:\users\oleg\documents\visual studio 2017\Projects\DynamicArray\DynamicArray\bi
 c:\users\oleg\documents\visual studio 2017\Projects\DynamicArray\DynamicArray\obj\Debug\DynamicArray.csprojResolveAssemblyReference.cache
 c:\users\oleg\documents\visual studio 2017\Projects\DynamicArray\DynamicArray\obj\Debug\DynamicArray.exe
 c:\users\oleg\documents\visual studio 2017\Projects\DynamicArray\DynamicArray\obj\Debug\DynamicArray.pdb
+C:\Users\Oleg\Documents\GitHub\DynamicArray\DynamicArray\bin\Debug\DynamicArray.exe.config
+C:\Users\Oleg\Documents\GitHub\DynamicArray\DynamicArray\bin\Debug\DynamicArray.exe
+C:\Users\Oleg\Documents\GitHub\DynamicArray\DynamicArray\bin\Debug\DynamicArray.pdb
+C:\Users\Oleg\Documents\GitHub\DynamicArray\DynamicArray\obj\Debug\DynamicArray.csprojResolveAssemblyReference.cache
+C:\Users\Oleg\Documents\GitHub\DynamicArray\DynamicArray\obj\Debug\DynamicArray.exe
+C:\Users\Oleg\Documents\GitHub\DynamicArray\DynamicArray\obj\Debug\DynamicArray.pdb
