@@ -11,17 +11,17 @@ namespace DynamicArray
         private T[] _arr;
         private long _currSize;
 
-        public void Put(int i, T element)
+        private void Put(int i, T element)
         {
             if (_arr == null)
             {
-                _currSize = i + 100;
+                _currSize = i * 2;
                 _arr = new T[_currSize];
                 _arr[i] = element;
             }
             else if (i >= _currSize)
             {
-                var newArr = new T[i + 100];
+                var newArr = new T[i * 2];
                 for (var j = 0; j < _arr.Length; j++)
                 {
                     newArr[j] = _arr[j];
@@ -43,6 +43,12 @@ namespace DynamicArray
         public long Length()
         {
             return _arr.Length;
+        }
+
+        public T this[int i]
+        {
+            get { return _arr[i]; }
+            set { Put(i, value); }
         }
     }
 }
